@@ -1,0 +1,17 @@
+{
+  "name": "container-image-pull-failure-planner",
+  "version": "1.0.0",
+  "description": "Plan retry / wait / source-switch / rescheduling actions for container image pull failures",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "exports": {
+    ".": "./src/planner.js",
+    "./reference": "./src/reference.js",
+    "./machine": "./src/machine.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
